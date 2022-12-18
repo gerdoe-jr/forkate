@@ -1,0 +1,6 @@
+/target
+/.well-known
+/certificates
+**/.obsidian
+Cargo.lock
+.env

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include "includes/header.html" %}
+</head>
+
+<body>
+    {% include "includes/menu.html" %}
+    
+    {{ Self::md()|markdown }}
+
+    {% include "includes/footer.html" %}
+</body>
+
+</html>

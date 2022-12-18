@@ -1,0 +1,22 @@
+[package]
+name = "forkate"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.10"
+log = "0.4"
+
+actix-web = { version = "4", features = ["rustls"] }
+actix-web-lab = "0.18"
+actix-files = "0.6"
+
+rustls = "0.20.2"
+rustls-pemfile = "1"
+acme-lib = "0.8"
+
+askama = { version = "0.11", features = ["markdown"] }
+dotenv = "0.15.0"
+
+[build-dependencies]
+askama = { version = "0.11", features = ["markdown"] }

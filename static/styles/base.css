@@ -1,0 +1,39 @@
+* {
+    font-family: monospace;
+    font-size: 115%;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 175%;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-decoration: underline;
+}
+
+p,
+strong,
+em,
+a {
+    font-size: 100%;
+}
+
+.menu {
+    text-align: center;
+    word-spacing: 50px;
+}
+
+.menu a {
+    color: darkgrey;
+    font-size: 125%;
+}
